@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="center" center="$null" prefHeight="319.0" prefWidth="497.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.controller.Controller">
+  <top>
+    <BorderPane prefHeight="48.0" prefWidth="497.0">
+      <bottom>
+        <MenuBar>
+          <menus>
+            <Menu mnemonicParsing="false" text="Tools">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#changeToSearch" text="Search" />
+                <MenuItem mnemonicParsing="false" onAction="#changeToGoogleTrans" text="Google Translate" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Modify">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#changeToWordAdd" text="Add" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="More">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#changeToAbout" text="About" />
+              </items>
+            </Menu>
+          </menus>
+        </MenuBar>
+      </bottom>
+      <left>
+        <Label prefHeight="52.0" prefWidth="497.0" style="-fx-text-fill: blue;&#10;-fx-padding: 5 5 5 5;" text="Dictionary App Search">
+          <font>
+            <Font size="16.0" />
+          </font>
+        </Label>
+      </left>
+    </BorderPane>
+  </top>
+</BorderPane>

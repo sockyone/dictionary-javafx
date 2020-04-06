@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="library1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/DictionaryUI/sample/library/voicerss_tts.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/DictionaryUI/sample/library/sqlite-jdbc-3.23.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
